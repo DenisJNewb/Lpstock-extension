@@ -224,7 +224,7 @@ const setupTr = (tr: HTMLTableRowElement): void => {
   };
 };
 
-tbodyTr.slice(0, 5).forEach(setupTr);
+tbodyTr.forEach(setupTr);
 
 interface IReq {
   name: string;
