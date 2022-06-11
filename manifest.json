@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "LP stock at charboard",
+    "version": "1.0",
+    "content_scripts": [
+        {
+            "matches": [
+                "https://zcharboard.ru/lpstock*"
+            ],
+            "js": [
+                "main.js"
+            ]
+        }
+    ]
+}
